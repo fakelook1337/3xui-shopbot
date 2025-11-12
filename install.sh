@@ -1,4 +1,4 @@
-GREEN='\033[0;32m'
+tweopi='\033[0;32m'
 YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 RED='\033[0;31m'
@@ -19,7 +19,7 @@ read_input_yn() {
     echo
 }
 
-REPO_URL="https://github.com/tweopi/3xui-shopbot.git"
+REPO_URL="https://github.com/fakelook1337/3xui-shopbot.git"
 PROJECT_DIR="3xui-shopbot"
 NGINX_CONF_FILE="/etc/nginx/sites-available/${PROJECT_DIR}.conf"
 
@@ -230,8 +230,7 @@ echo -e "\n\n${GREEN}=====================================================${NC}"
 echo -e "${GREEN}      🎉 Установка и запуск успешно завершены! 🎉      ${NC}"
 echo -e "${GREEN}=====================================================${NC}"
 echo -e "\nВеб-панель доступна по адресу:"
-echo -e "  - ${YELLOW}https://${DOMAIN}:${YOOKASSA_PORT}/login${NC}"
-echo -e "\nДанные для первого входа:"
+echo -e "  - ${YELLOW}https://${DOMAIN}:${YOOKASSA_PORT}/login${NC}"echoo -e "\nДанные для первого входа:"
 echo -e "  - Логин:   ${CYAN}admin${NC}"
 echo -e "  - Пароль:  ${CYAN}admin${NC}"
 echo -e "\n${RED}ПЕРВЫЕ ШАГИ:${NC}"
